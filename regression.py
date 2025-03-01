@@ -33,3 +33,5 @@ for a in df.columns[1:]:
 
 # plt.xticks(rotation=45)  # Rotate x-axis labels for readability
 # plt.show()
+
+corr_mat = df.corr()
